@@ -1,0 +1,28 @@
+let str = "Muhammad Shayan Khan";
+
+console.log("String length:", str.length);
+console.log("String charAt(5):", str.charAt(5));
+console.log("String charCodeAt(5):", str.charCodeAt(5));
+console.log("String at(5):", str.at(5));
+console.log("String [5]:", str[5]);
+console.log("String slice(0,8):", str.slice(0, 8));
+console.log("String substring(0,8):", str.substring(0, 8));
+console.log("String substr(0,8):", str.substr(0, 8));
+console.log("String toUpperCase():", str.toUpperCase());
+console.log("String toLowerCase():", str.toLowerCase());
+console.log("String concat():", str.concat(" is a developer"));
+console.log("String trim():", str.trim());
+console.log("String trimStart():", str.trimStart());
+console.log("String trimEnd():", str.trimEnd());
+console.log("String padStart(25, '*'):", str.padStart(25, '*'));
+console.log("String padEnd(25, '*'):", str.padEnd(25, '*'));
+console.log("String repeat(2):", str.repeat(2));
+console.log("String replace('Shayan', 'Ali'):", str.replace("Shayan", "Ali"));
+console.log("String replaceAll('a', '@'):", str.replaceAll("a", "@"));
+console.log("String split(' '):", str.split(" "));
+console.log("indexOf('Shayan'):", str.indexOf("Shayan"));
+console.log("lastIndexOf('a'):", str.lastIndexOf("a"));
+console.log("search('Khan'):", str.search("Khan"));
+console.log("includes('Shayan'):", str.includes("Shayan"));
+console.log("startsWith('Muhammad'):", str.startsWith("Muhammad"));
+console.log("endsWith('Khan'):", str.endsWith("Khan"));
